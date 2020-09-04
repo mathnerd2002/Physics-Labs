@@ -31,6 +31,7 @@ print ('magnitude:',mag(a1),a1.mag,sqrt(a1.x**2+a1.y**2+a1.z**2))
 print('magnitude^2:',mag2(a),a.mag2,(a.x**2+a.y**2+a.z**2))
  
  #norm of vectors
+ 
 print('a:',a)
 print('norm:', norm(a), a.norm(), a/mag(a))
 print(mag(norm(a)))
