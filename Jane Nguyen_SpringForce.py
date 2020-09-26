@@ -5,9 +5,9 @@ scene = canvas (background=color.white)
 fix_point = sphere ( pos=vec(0,2,0), radius=0.2, color=color.red )  
 m =.549
 g = -9.796
-l_0 = .125        # initial length
-l_0_spring = .54     # unstretched spring  
-k_spring   = (m * g)/(l_0 - l_0_spring)      # k constant
+l_0 = .54      # initial length
+l_0_spring = .125    # unstretched spring  
+k_spring   = 12.95904578    # k constant
 mu = 0.1            # damping coeff
 
 ball    = sphere ( pos = fix_point.pos + vec(0,-l_0,0),
