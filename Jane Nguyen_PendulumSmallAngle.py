@@ -13,7 +13,6 @@ g = 9.79609
 ball = sphere(pos= fixed_point.pos+vec(l_0*sin(theta_0),-l_0*cos(theta_0),0), 
     mass = .550 ,  radius=0.2, color=color.blue )#, make_trail=True ) 
 
-
 spring = helix(pos= fixed_point.pos, axis = ball.pos -fixed_point.pos,
     radius =0.2, color=color.orange)
 
