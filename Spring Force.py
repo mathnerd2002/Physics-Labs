@@ -22,7 +22,6 @@ vg   = graph(title='Velocity', xtitle='t', ytitle='v (t)')
 vx_b = gcurve(graph=vg,color=color.cyan) # a graphics curve
 vy_b = gcurve(graph=vg,color=color.magenta) # a graphics curve
 
-
 scene.waitfor('click')
 
 myrate = 2000
@@ -73,7 +72,6 @@ while t < 10 :
 
     ball.old_v = ball.v
     ball.T = ball.T+dt
-
 
 scene.waitfor('click')
 
