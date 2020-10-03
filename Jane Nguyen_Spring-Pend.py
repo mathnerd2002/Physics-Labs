@@ -26,7 +26,6 @@ vx_b = gcurve(graph=vg, color=color.cyan) # a graphics curve
 vy_b = gcurve(graph=vg, color=color.magenta) # a graphics curve
 
 myrate = 2000
-
 t = 0
 dt = 0.001
 
