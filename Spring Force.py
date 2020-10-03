@@ -2,7 +2,6 @@ from vpython import *
 #GlowScript 3.0 VPython
 scene = canvas(background=color.white)
 
-
 fix_point = sphere(pos=vec(0,2,0), radius=0.2, color=color.red)  
 
 l_0 = .54             # initial length
