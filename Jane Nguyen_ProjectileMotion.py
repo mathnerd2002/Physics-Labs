@@ -24,7 +24,6 @@ stone = sphere ( pos=vec(x0,h,0 ), mass = 0.5 , angle = alpha, radius=0.01,
 stone2 = sphere ( pos=vec(x0,h,0 ), mass = 0.5 , angle = alpha, radius=0.01, 
     color=color.cyan, make_trail=True, trail_type="points")
 
-    
 stone.v = v0*vec(cos(stone.angle), sin(stone.angle),0)
 stone.p = stone.mass*stone.v
 
